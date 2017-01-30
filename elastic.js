@@ -74,7 +74,7 @@ angular.module('monospaced.elastic', [])
                           },
               minHeightValue = parseInt(taStyle.getPropertyValue('min-height'), 10),
               heightValue = parseInt(taStyle.getPropertyValue('height'), 10),
-              minHeight = Math.max(minHeightValue, heightValue) - boxOuter.height,
+              minHeight = 20,
               maxHeight = parseInt(taStyle.getPropertyValue('max-height'), 10),
               mirrored,
               active,
